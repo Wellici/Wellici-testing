@@ -45,11 +45,11 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #2b9ed9;
 }
 
 a:hover {
-  color: #fec503;
+  color: #2b9ed9;
 }
 
 .text-primary {
@@ -110,22 +110,22 @@ p.text-muted {
   background-color: #fed136;
   border-color: #fed136;
   */
-  background-color: #e40b6f;
+  background-color: #2b9ed9;
   border-color: #2b9ed9;
 }
 
 /* Aqui da pra modificar o botao de enviar mensagem*/
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   /*background-color: #fec810 !important;*/
-  background-color: #e40b6f !important;
+  background-color: #2b9ed9 !important;
   /*border-color: #fec810 !important;*/
-  border-bottom-color: #e40b6f !important;
+  border-bottom-color: #2b9ed9 !important;
   color: white;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  -webkit-box-shadow: 0 0 0 0.2rem #2b9ed9 !important;
+  box-shadow: 0 0 0 0.2rem #2b9ed9 !important;
 }
 
 ::selection {
@@ -201,9 +201,11 @@ img::-moz-selection {
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
   }
+  /*Aqui é onde está o navbar quando está retraido*/
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
+    /*background-color: #2b9ed9;*/
     background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
